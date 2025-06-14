@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elmonzer Bayoumi - Professional Data Scientist Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Elmonzer Bayoumi</h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#blogs">Blogs</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="btn btn-contact">Contact me </a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <p class="greeting animate-slide-up-delay">Hey I'm Elmonzer Bayoumi</p>
+                <h2 class="dynamic-text animate-slide-up-delay-2">I'm a <span id="typewriter-text"></span><span class="cursor">|</span></h2>
+                <p class="description animate-slide-up-delay-3">
+                    Aspiring Data Scientist with a strong math and IT background, using Python and machine learning to solve real-world problems.
+                </p>
+                <div class="social-links animate-slide-up-delay-4">
+                    <!-- GITHUB PROFILE LINK -->
+                    <a href="https://github.com/ElmonzerBayoumi" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <!-- LINKEDIN PROFILE LINK -->
+                    <a href="https://linkedin.com/in/elmonzer-bayoumi" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- EMAIL ADDRESS LINK -->
+                    <a href="mailto:elmonzerb9928@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <!-- CV FILE LOCATION -->
+                <a href="assets/Elmonzer_Bayoumi_CV.pdf" target="_blank" class="btn btn-primary animate-slide-up-delay-5">Review CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section animate-section-fade">
+        <div class="container">
+            <h2 class="animate-slide-up">About Me</h2>
+            <div class="about-content">
+                <!-- Consider adding an image here (e.g., <img src="assets/your-profile-pic.jpg" alt="Elmonzer Bayoumi" class="profile-photo">) -->
+                <p class="animate-slide-up-2">
+                    I’m an aspiring Data Scientist with a strong foundation in Mathematics and Computer Science, complemented by over five years of experience in IT support. This unique blend equips me to approach data challenges logically and with a user-focused mindset.
+                </p>
+                <p class="animate-slide-up-3">
+                    Currently, I’m building practical skills in Python, SQL, and machine learning through real-world projects such as sentiment analysis of banking app feedback and diabetes prediction modeling. I enjoy transforming raw data into actionable insights that can solve real problems.
+                </p>
+                <p class="animate-slide-up-3">
+                    My background in IT support sharpened my problem-solving, communication, and teamwork skills — essential traits for successful data science collaboration. I am passionate about continuous learning and applying data-driven solutions to make a tangible impact, especially in underrepresented communities.
+                </p>
+                <p class="animate-slide-up-3">
+                    I’m eager to contribute to innovative data projects and grow in a dynamic, challenging environment.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section animate-section-fade">
+        <div class="container">
+            <h2 class="animate-slide-up">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item animate-slide-up-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Analysis</h3>
+                </div>
+                <div class="skill-item animate-slide-up-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                </div>
+                <div class="skill-item animate-slide-up-item">
+                    <i class="fab fa-python"></i>
+                    <h3>Python (Pandas, NumPy)</h3>
+                </div>
+                <div class="skill-item animate-slide-up-item">
+                    <i class="fas fa-database"></i>
+                    <h3>SQL & Databases</h3>
+                </div>
+                <div class="skill-item animate-slide-up-item">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Data Visualization</h3>
+                </div>
+                <div class="skill-item animate-slide-up-item">
+                    <i class="fas fa-comments"></i>
+                    <h3>NLP (Natural Language Processing)</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section animate-section-fade">
+        <div class="container">
+            <h2 class="animate-slide-up">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Sentiment analysis for mobile application comments -->
+                <div class="project-card animate-slide-up-item">
+                    <!-- Replace with your actual project image -->
+                    <img src="images/Sampel text prediction.PNG" alt="Project 1 Image - Sentiment Analysis">
+                    <h3>Sentiment Analysis for Mobile Application Comments</h3>
+                    <p> An NLP project to analyze and classify user feedback from a Sudanese banking app in both Arabic and English.
+                        Includes preprocessing, feature extraction, machine learning models (SVM, Random Forest), and insightful visualizations.</p>
+                    <div class="project-links">
+                        <a href="https://elmonzerbayoumi.github.io/sentiment-demo/" target="_blank" class="btn btn-secondary">Live Demo</a>
+                        <a href="https://github.com/ElmonzerBayoumi/sentiment-analysis" target="_blank" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+                <!-- Project 2: Diabetes prediction modeling -->
+                <div class="project-card animate-slide-up-item">
+                    <!-- Replace with your actual project image -->
+                    <img src="images/Accuracy.png" alt="Project 2 Image - Diabetes Prediction">
+                    <h3>Diabetes Prediction Modeling</h3>
+                    <p>A machine learning project that predicts the likelihood of diabetes based on medical features such as glucose level, BMI, age, and blood pressure.
+                       This project includes data preprocessing, model training, evaluation, and visualization using Python (Pandas, Matplotlib, Scikit-learn).</p>
+                    <div class="project-links">
+                        <a href="https://elmonzerbayoumi.github.io/diabetes-demo/" target="_blank" class="btn btn-secondary">Live Demo</a>
+                        <a href="https://github.com/ElmonzerBayoumi/Diabetes-prediction" target="_blank" class="btn btn-secondary">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section animate-section-fade">
+        <div class="container">
+            <h2 class="animate-slide-up">Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required class="animate-slide-up-item">
+                <input type="email" placeholder="Your Email" required class="animate-slide-up-item">
+                <input type="text" placeholder="Subject" class="animate-slide-up-item">
+                <textarea placeholder="Your Message" rows="6" required class="animate-slide-up-item"></textarea>
+                <button type="submit" class="btn btn-primary animate-slide-up-item">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Elmonzer Bayoumi. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
